@@ -1,3 +1,4 @@
+# 2022 KAKAO BLIND 신고 결과 받기
 from collections import Counter
 
 id_list = ["con", "ryan"]
