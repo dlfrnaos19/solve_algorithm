@@ -14,3 +14,7 @@ def solution(nums):
     # 타입이 별로 없으므로, 타입만큼만 고름
     elif n_max > n_type:
         return n_type
+
+# 프로그래머스 다른 사람 풀이
+# def solution(ls):
+#     return min(len(ls)/2, len(set(ls)))
