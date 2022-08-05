@@ -1,14 +1,13 @@
 def solution(phone_book):
-    hash_map = {}
-    for phone_num in phone_book:
-        hash_map[phone_num] = 0
-    for phone_num in phone_book:
+    hash_map = set(phone_book)
+        
+    for num in phone_book:
         temp = ""
-        for num in phone_num:
-            temp+=num
-            if temp in hash_map and temp != phone_num:
+        for char in num:
+            temp += char
+            if temp in hash_map and temp != num:
                 return False
-    
+
     return True
 
 # 다른 사람 풀이
